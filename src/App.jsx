@@ -8,6 +8,9 @@ import ComponenteDylan from './Componentes/ComponenteDylan';
 import './Componentes/Estilos/ComponenteDylanCss.css';
 import ComponenteJesus from './Componentes/ComponenteJesus';
 import './Componentes/Estilos/ComponenteJesusCss.css';
+import ComponenteMiguel from './Componentes/ComponenteMiguel';
+import './Componentes/Estilos/ComponenteMiguelCss.css';
+
 
 
 function App() {
@@ -20,6 +23,7 @@ function App() {
       <Componente1/>
       <ComponenteDylan/>
       <ComponenteJesus/>
+      <ComponenteMiguel/>
       </>
       
     </div>
