@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Kanit&family=Lexend+Deca&family=Raleway&family=Roboto:wght@500&family=Ubuntu&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Kanit', sans-serif;
+}
+.mas{
+    background: rgb(190,185,166);
+    background: radial-gradient(circle, rgba(190,185,166,1) 8%, rgba(185,194,203,1) 30%, rgba(62,55,58,1) 86%);
+    height: 100vh;
+    z-index: 0;
+}
+.nombreJ{
+    color: black;
+    text-align: center;
+}
+.cosas{
+        color: black;
+        text-align: center;
+    
+}
+.container {
+    display: flex;  
+    background: radial-gradient(circle, rgba(237,187,0,1) 3%, rgba(0,77,152,1) 12%, rgba(165,0,68,1) 86%);
+    height: 70vh;
+    border-radius: 5px;
+    margin: 3rem 3rem;
+    overflow: hidden;
+}
+.container div{
+    width: 100%;
+}
+h2{
+    font-size: xx-large;
+    text-align: center  ;
+}
+
+ .container h3{
+    background: #edbb00;
+    color: #004D98;
+    text-align: center;
+ }
+.container p{
+    color: black;
+    padding: .5rem .5rem;
+    font-size: 15px;
+    text-align: justify;
+}
+.imagenJ{
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .5;
+    z-index: 1;
+}
+.container img:hover{
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+} 
