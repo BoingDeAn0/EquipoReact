@@ -1,6 +1,10 @@
 .h1-present{
+    display:inline-flex;
+    justify-content: center;
+    width: 400px;
     text-align: center;
     margin: .5rem;
+    margin-left: 450px;
 }
 .h2-present{
     text-align: center;
@@ -18,7 +22,7 @@
     justify-content: center;
     margin: .5rem 0;
     margin-right: 80px;
-    margin-left: 40px;
+    margin-left: 180px;
     border-radius: 20px;
     border: 5px solid darkblue;
     cursor: pointer;
@@ -29,7 +33,7 @@
     justify-content: center;
     margin: .5rem ;
     margin-right: 80px;
-    margin-left: 40px;
+    margin-left: 80px;
     border-radius: 20px;
     border: 5px solid darkblue;
     cursor: pointer;
@@ -48,19 +52,22 @@
     
 }
 .h4-video{
-    margin-left: 80px;
-    color: aliceblue;
-}
-.h4-pelis{
+    text-align: center;
     margin-left: 100px;
     color: aliceblue;
 }
+.h4-pelis{
+    text-align: center;
+    margin-left: -50px;
+    color: aliceblue;
+}
 .h4-box{
-    margin-left: 130px;
+    text-align: center;
+    margin-left: -70px;
     color: aliceblue;
 }
 .p-video{
-    margin-left: 60px;
+    margin-left: 100px;
     color: aliceblue;
 }
 .p-pelis{

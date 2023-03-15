@@ -10,7 +10,8 @@ import ComponenteJesus from './Componentes/ComponenteJesus';
 import './Componentes/Estilos/ComponenteJesusCss.css';
 import ComponenteMiguel from './Componentes/ComponenteMiguel';
 import './Componentes/Estilos/ComponenteMiguelCss.css';
-
+import ComponenteEli from './Componentes/ComponenteEli';
+import './Componentes/Estilos/ComponenteEli.css';
 
 
 function App() {
@@ -24,9 +25,11 @@ function App() {
       <ComponenteDylan/>
       <ComponenteJesus/>
       <ComponenteMiguel/>
+      <ComponenteEli/>
       </>
       
     </div>
+    
   )
 }
 

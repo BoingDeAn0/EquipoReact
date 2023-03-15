@@ -1,0 +1,121 @@
+.principal1{
+    float: left;
+    width: 650px;
+    height: 700px;
+    margin: 20px 0 0 10px;
+    background-image: linear-gradient(white,darkBlue);
+    border-radius: 5%;
+    
+}
+.fondo{
+    background-image: url('./../../assets/IMG/fondo_Img.jpg');
+    width: 600px;
+    height: 180px;
+    margin-left: 25px;
+    position: absolute;
+}
+.perfil{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin: 50px 0 0 180px;
+    display: flex;
+    justify-content: center;
+    background-image: url('./../../assets/IMG/img_presentacion.jpg');
+}
+.div1{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 450px;
+    height: 160px;
+    margin-top: 500px;
+    margin-left: 110px;
+    background-color: black; 
+    opacity: 0.5;
+}
+.div2{
+    text-align:center;
+    display: flex;
+/*alineacion horizontal*/
+    justify-content: center;
+/*alineacion vertical*/
+    align-items: center;
+/*tamaño de letra*/
+    font-size: 1rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, 
+    Verdana, sans-serif;
+    color: white;
+}
+/*SEGUNDO CONTENEDOR*/
+.principal2{
+    float: right;
+    width: 650px;
+    height: 700px;
+    background-image: linear-gradient(white,darkBlue);
+    margin: 20px 10px 10px 20px;
+    border-radius: 5%;
+}
+.fondo2{
+    background-image: url('./../../assets/IMG/fondo_Img.jpg');
+    width: 600px;
+    height: 180px;
+    margin-left: 25px;
+    position: absolute;
+}
+.eti{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 50px;
+    margin-top: 140px;
+    margin-left: 75px;
+    background-color: white; 
+    opacity: 0.5;
+}
+.EH1{
+    text-align: center;
+    display: flex;
+/*alineacion horizontal*/
+    justify-content: center;
+/*alineacion vertical*/
+    align-items: center;
+/*tamaño de letra*/
+    font-size:large;
+    font-family:cursive;
+    color: black;
+}
+.lakers{
+    width: 300px;
+    height: 200px;
+    position:absolute;
+    float: left;
+    margin: 250px 0 0 50px;
+    border-radius: 15%;
+}
+.marvel{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    border-radius: 15%;
+    margin: 250px 0 0 360px;
+    float: right;
+}
+.morgan{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    float: left;
+    margin: 500px 50px 0 50px;
+    border-radius: 15%;
+}
+.chavo{
+    width: 300px;
+    height: 200px;
+    position:absolute;
+    float: right;
+    margin: 500px 0 0 360px;
+    border-radius: 15%;
+}
