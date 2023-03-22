@@ -4,7 +4,7 @@ const Card = () => {
     return (
         <Fragment>
             <div className="card">
-                <img src="/public/java.webp" alt="Avatar" />
+                <img src="/src/assets/images/java.webp" alt="Avatar" />
                 <div className="containerJ">
                     <h4><b>Java</b></h4>
                     <p>Desarrollo Movile &  Desktop</p>

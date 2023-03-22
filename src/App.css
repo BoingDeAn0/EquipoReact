@@ -1,14 +1,22 @@
-.general{
-    display: flex;
-    justify-content: center;
-    height: 900px;
+.glo{
+  display: flex;
+  justify-content: center;
+}
+.g-1{
+    max-width: 1000px;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(237, 237, 237);
   }
   .contenedorSubCard{
     max-width: 1000px;
-    height: 900px;
     margin-top: 20px;
     /*background-color: rgb(53, 78, 92);*/
-    background-color: white;
+  
+  }
+
+  .contenedorSubCard h2{
+    margin: 10px 0px 20px 20px;
   }
   .contenedorCard{
         display: flex;

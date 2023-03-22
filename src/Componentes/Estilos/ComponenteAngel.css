@@ -3,7 +3,13 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   
+  .conten{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
   .contenedorJ{
+    max-width: 1000px;
     width: 100%;
     height: 300px;
     background-color: rgb(53, 78, 92);

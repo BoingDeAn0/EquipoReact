@@ -18,10 +18,10 @@ import Card2 from './Componentes/Card2';
 
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
-    <div className="App">
+
 
       <>
       <Componente1/>
@@ -30,22 +30,24 @@ function App() {
       <ComponenteMiguel/>
       <ComponenteEli/>
       <ComponeteAngel/>
-      <div className='general'>
-        <div className="contenedorSubCard">
-        <h2>Tecnologías que mas me gustan</h2>
-          <div className="contenedorCard">
-          <div className='card1'>
-            <Card />
-          </div>
-          <div className='card2'>
-            <Card2 />
-          </div>
+      <div className="glo">
+        <div className='g-1'>
+          <div className="contenedorSubCard">
+            <h2>Tecnologías que mas me gustan</h2>
+            <div className="contenedorCard">
+              <div className='card1'>
+                <Card />
+              </div>
+              <div className='card2'>
+                <Card2 />
+              </div>
+            </div>
           </div>
         </div>
       </div>
       </>
      
-    </div>
+
     
   )
 }
