@@ -1,0 +1,53 @@
+.all{
+    background-image: url(../src/assets/IMG/crim.jpg);
+    background-size: auto;
+    display: flex;
+    
+    padding: 41px; 
+    max-height: auto;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    gap: 20px 5px;
+  
+  
+  }
+  
+  
+  .principal{
+  color: aliceblue;
+  font-family: monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  text-align: center;
+  margin-right: 2rem;
+  
+  }
+  
+  .card{
+    border-radius: 2rem;
+  }
+  
+  .tarjetass{
+  color: aliceblue;
+  font-family: monospace;
+  flex-wrap: nowrap;
+  width: 200px;
+  padding: 10px;
+
+  display: grid;
+  height: 200px;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  gap: 15px 30px;
+
+ 
+  }
+  
+  .texto{
+    padding: 10px;
+    text-align:justify;
+    background-color:rgba(95, 1, 1, 0.731);
+  }
+  .h4{
+    text-align: center;
+  } 

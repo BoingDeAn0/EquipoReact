@@ -14,6 +14,7 @@ import ComponenteEli from './Componentes/componenteEli';
 import ComponeteAngel from './Componentes/ComponenteAngel';
 import Card from './Componentes/Card';
 import Card2 from './Componentes/Card2';
+import CompoRub from './Componentes/CompoRub';
 
 
 
@@ -45,6 +46,7 @@ function App() {
           </div>
         </div>
       </div>
+      <CompoRub/>
       </>
      
 
