@@ -1,0 +1,28 @@
+.general{
+    display: flex;
+    justify-content: center;
+    height: 900px;
+  }
+  .contenedorSubCard{
+    max-width: 1000px;
+    height: 900px;
+    margin-top: 20px;
+    /*background-color: rgb(53, 78, 92);*/
+    background-color: white;
+  }
+  .contenedorCard{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+  }
+
+  /****************FORMATO DE LAS CARDST**************/
+
+.card1{
+    margin: 0px 20px;
+  }
+  
+  .card2{
+    margin: 0px 20px;
+  }
+  

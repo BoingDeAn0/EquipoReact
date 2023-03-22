@@ -13,7 +13,8 @@
 
 }
 
-img{
+
+.imgD{
     width: 15vw;
     height: 35vh;
     background-position: center;
@@ -22,9 +23,8 @@ img{
     border-radius: 3vw;
     display: inline-block;
     cursor: pointer;
-    
-
 }
+
 
 .titulos-1{
     display: flex;
@@ -47,13 +47,13 @@ h1{
 }
 
 
-img:hover{
+
+
+.imgD:hover{
 	filter: grayscale(0%);
 	transform: scale(1.1);
     transition: 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-
-/*Animacion de los botones */
+} 
 
 
 

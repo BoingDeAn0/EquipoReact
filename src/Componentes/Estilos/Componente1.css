@@ -1,5 +1,5 @@
 .group{
-    height: 60vh;
+    height: auto;
     width: 100%;   
     color: white;
     display: flex;
@@ -8,7 +8,7 @@
 
 }
 
-img{
+.imgR{
     width: 15vw;
     height: 35vh;
     background-position: center;
@@ -17,7 +17,7 @@ img{
     border-radius: 3vw;
     display: inline-block;
     cursor: pointer;
-    filter: grayscale(100%);
+  
 
 }
 
@@ -41,13 +41,15 @@ h1{
 }
 
 
-img:hover{
+
+
+
+.imgR:hover{
 	filter: grayscale(0%);
 	transform: scale(1.1);
     transition: 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
-/*Animacion de los botones */
 
 
 

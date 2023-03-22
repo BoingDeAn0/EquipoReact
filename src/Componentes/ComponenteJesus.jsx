@@ -1,4 +1,4 @@
-
+import './Estilos/ComponenteJesusCss.css';
 
 function ComponenteJesus() {
   return (
