@@ -9,11 +9,7 @@
     height: 77vh;
     background: rgb(131,58,180);
     background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-    
-
 }
-
-
 .imgD{
     width: 15vw;
     height: 35vh;
@@ -24,8 +20,6 @@
     display: inline-block;
     cursor: pointer;
 }
-
-
 .titulos-1{
     display: flex;
     justify-content: center;
@@ -46,17 +40,11 @@ h1{
     
 }
 
-
-
-
 .imgD:hover{
 	filter: grayscale(0%);
 	transform: scale(1.1);
     transition: 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
 } 
-
-
-
 .btn-1 a{
     position: relative;
     color: #f5f5f5;
@@ -77,8 +65,6 @@ h1{
       filter: hue-rotate(-360deg)
     }
   }
-
-  
   .btn-1 a span{
     height: 88%;
     width: 96%;
